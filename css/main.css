@@ -1,0 +1,586 @@
+.container__navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: #0F0F0F;
+}
+
+.text {
+    padding: 15px 100px 15px 200px;
+    color: white;
+    font-family: Post No Bills Jaffna;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.menu {
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    right: 200px;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+
+}
+.menu a{
+    text-decoration: none;
+    width: 135px;
+    color: grey;
+    padding: 30px 0px;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+a.first{
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.container__navigation-img {
+    height: 12.8px;
+    width: 18.3px;
+    padding: 28px 0px 31px 0px;
+    width: 200px;
+    margin-right: 100px;
+}
+
+.basket {
+    
+
+}
+
+.magnifier{
+    margin-left: 20px;
+}
+
+
+/*    блок с фоном на всю страницу*/
+
+.fullbackground {
+    width: 100%;
+    height: 810px;
+    background-image: url(../image/background/1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.fullbackground__title {
+    margin: 0 auto;
+    padding-top: 220px;
+    width: 320px;
+    height: 320px;
+    font-family: PT Sans;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.underline {
+    padding-top: 90px;
+    font-family: Post No Bills Jaffna;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 3px solid white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.fullbackground__text {
+    padding-top: 150px;
+    margin: 0 auto;
+    height: 96px;
+    width: 750px;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* коллекция 20/21 */
+
+.container__clock {
+    width: 100%;
+    height: 750px;
+    display: flex;
+}
+
+.season h3{
+    padding-top: 90px;
+    margin:0 auto;
+    color: white;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.season hr{
+    height: 15px;
+    width: 120px;
+    margin:0 auto;
+    padding-bottom: 50px;
+}
+
+.season {
+
+    width: 1040px;
+    background-color: black;
+}
+
+.clokc__item{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.clock__item1 {
+    margin: 0px 80px 0px 80px;
+    width: 230px;
+    height: 400px;
+}
+
+
+.clock__item2P{
+
+    width: 230px;
+    height: 400px;
+}
+
+
+.clock__item3{
+    margin: 0px 80px 0px 50px;
+    width: 230px;
+    height: 400px;
+}
+
+
+.clock__item-img {
+    padding-top: 50px;
+    padding-left: 22px;
+    background-color: #191B1C;
+    width: 260px;
+    height: 320px;
+}
+
+.clock__item-text {
+    color: white;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.clock__item-price {
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: white;
+}
+
+.container__newcollection {
+    width: 880px;
+    height: 750px;
+    background-image: url(../image/background/2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container__newcollection h3{
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 480px;
+    color: white;
+    margin: 0 auto;
+}
+
+.container__newcollection hr{
+    margin: 30px auto;
+    width: 120px;
+    height: 5px;
+    color: white;
+}
+
+.container__newcollection button{
+    display: block;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: transparent;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+/* коллекция 2018   */
+
+.container2018 {
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.image2018 {   
+    width: 880px;
+    height: 600px;
+
+}
+
+.colection2018 {
+    width: 1040px;
+    height: 600px;
+    background-color: black;
+
+}
+
+.colection2018 h3{
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.colection2018 hr{
+    margin: 0 auto;
+    height: 5px;
+    width: 120px;
+
+}
+
+.colection2018__text {
+    width: 470px;
+    height: 175px;
+    margin: 0 auto;
+    padding-top: 40px;
+    color: white;
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+
+
+}
+
+.colection2018 button{
+    display: block;
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+/*    новое поступление*/
+
+.newarrival {
+    Width: 100%;
+    Height: 1290px;
+    background-color: black;
+}
+
+.newarrival h3{
+    padding-top: 120px;
+    margin: 0 auto;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.newarrival hr{
+    width: 120px;
+    margin: 0 auto;
+}
+
+.container__otherclock {
+    
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 850px;
+    width: 1150px;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.otherclock__item {
+    width: 260px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.otherclock__item-img {
+    background-color: #191B1C;
+    padding-bottom: 80px;
+
+}
+
+.otherclock__item-img img{
+    padding-top: 40px;
+    padding-left: 30px;
+
+}
+
+.otherclock__item-text {
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.otherclock__item-price {
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: white;
+}
+
+/*  наши бренды*/
+
+.brends {
+    width: 100%;
+    height: 365px;
+    background-color: #0F0F0F;
+
+}
+
+.brends h3{
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+.brends hr{
+    width: 120px;
+    height: 5px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.container__logo {
+    width: 1150px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.container__logo img{
+    margin-right: 25px;
+}
+
+/* о магазине*/
+
+
+.about {
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/background/3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.container__about{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    padding-top: 80px;
+
+}
+
+.magazine {
+    width: 350px;
+    height: 210px;
+    margin-right: 30px;
+
+}
+
+.magazine__title {
+    padding-bottom: 40px;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+}
+
+.magazine__text {
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: white;
+}
+
+.categories {
+    width: 350px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.categories__title {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.categories__link{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.categories a{
+    display: inline-block;
+    height: 31px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+.Newsletter {
+    margin-left: 50px;
+    width: 350px;
+
+}
+
+.Newsletter__title {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.Newsletter__text {
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: white;
+    padding-bottom: 35px;
+}
+
+form .mail{
+    width: 200px;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    border-radius: none;
+    border: 1px solid rgba(255, 255, 255, 0.4)
+}
+
+button{
+    width: 110px;
+    height: 41px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+/*футер*/
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+}
+
+footer h4{
+    font-family: PT Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 17px;
+    margin-left: 400px;
+}
+
