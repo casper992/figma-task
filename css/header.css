@@ -4,8 +4,13 @@ header {
     height: 44px;
     background-color: black;
     color:grey;
-
 }
+@media (max-width: 920px){
+    header{
+        position: relative;
+    }
+}
+
 
 .header__imgphone{
     position: absolute;
@@ -13,7 +18,12 @@ header {
     left: 200px;
     height: 13.3px;
     width: 13.3px;
-
+}
+@media (max-width: 920px){
+    .header__imgphone{
+        position: absolute;
+        left: 0;
+    }
 }
 
 .header__contact {
@@ -27,7 +37,12 @@ header {
     text-align: left;
     padding-left: 230px;
 }
-
+@media (max-width: 920px){
+    .header__contact{
+        text-align: left;
+        padding-left: 30px;
+    }
+}
 
 .imgright{
     position: absolute;
@@ -36,6 +51,11 @@ header {
     height: 13.3px;
     width: 13.3px;
 }
+@media (max-width: 920px){
+    .imgright{
+        display: none;
+    }
+}
 
 .imgright__img2{
     position: absolute;
@@ -43,7 +63,12 @@ header {
     left: -2px;
     height: 13.3px;
     width: 13.3px;
+}
 
+@media (max-width: 920px){
+    .imgright__img2{
+        display: none;
+    }
 }
 
 .header__link{
@@ -52,7 +77,13 @@ header {
     height: 16px;
     right: 200px;
     top: 14px;
+}
 
+@media (max-width: 920px){
+    .header__link{
+        position: absolute;
+        right: 0;
+    }
 }
 
 .header__link a{
